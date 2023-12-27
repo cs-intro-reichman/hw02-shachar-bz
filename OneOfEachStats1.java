@@ -12,7 +12,7 @@ public class OneOfEachStats1 {
 		int threeChildren = 0;
 		int fourOrMoreChildren = 0;
 		// count the number of born children 
-		int count = 0;
+		double count = 0;
 		
 
 		for(int i = 0; i < T; i++){

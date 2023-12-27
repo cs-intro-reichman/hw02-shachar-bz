@@ -14,7 +14,7 @@ public class InOrder {
 
 		int num2 = (int) (Math.random() * 10);
 		
-		while (random < 5 ||  non_decreasing == false){
+		while (non_decreasing == false){
 			if (num2 == num1 - 1){
 				non_decreasing = true;
 			}

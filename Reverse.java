@@ -18,7 +18,7 @@ public class  Reverse {
 		System.out.println(reverse_Order);
 		
 		if (word.length() % 2 == 0) {
-			char middle = word.charAt(word.length() / 2);
+			char middle = word.charAt((word.length() / 2) - 1);
 			System.out.println("The middle character is " + middle );
 		}
 		else {
