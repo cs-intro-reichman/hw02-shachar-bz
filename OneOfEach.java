@@ -14,7 +14,7 @@ public class OneOfEach {
 			double random_human = Math.random(); 
 			if (random_human >= 0.5){
 				boy = true;
-				numOfChildren += 1;
+				numOfChildren += 1; // #feedback - you can increase this counter outside of the "if" scope, since it's always relevant.
 				System.out.print("b ");
 			}
 			else{
@@ -22,7 +22,7 @@ public class OneOfEach {
 				numOfChildren+= 1;
 				System.out.print("g ");
 			}
-			}
+			} // #feedback - note the indentation here.
 
 			System.out.println();
 			// print the amount of children that were born
