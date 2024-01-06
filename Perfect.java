@@ -22,7 +22,7 @@ public class Perfect {
 		else{
 			System.out.println(num + " is not a perfect number ");
 		}
-		
+		// #feedback - these redundant empty lines should be removed.
 
 
 
