@@ -9,14 +9,15 @@
 public class  Reverse {
 	public static void main (String[] args){
 		String word = args[0];
-		String reverse_Order = "";
+		String reverse_Order = ""; // #feedback - in Java, we usually use CamelCase for variable names, so here it should be "reverseOrder".
 		// creating a new string with reverse_Order
 
 		for (int i = word.length() - 1; i >= 0; i-- ){
 			reverse_Order = reverse_Order + word.charAt(i);
 		}
 		System.out.println(reverse_Order);
-		
+
+		// #feedback - Use of "if" is unnecessary here. ((word.length()-1) / 2) will give the middle character in both scenarios.
 		if (word.length() % 2 == 0) {
 			char middle = word.charAt((word.length() / 2) - 1);
 			System.out.println("The middle character is " + middle );
